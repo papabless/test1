@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>BitSweeper</title>
+
+        <link rel="stylesheet" type="text/css" href="https://oss.maxcdn.com/semantic-ui/2.1.7/semantic.min.css" />
+        <link rel="stylesheet" type="text/css" href="lib/css/style.css" />
+        
+        <script type="text/javascript" src="https://oss.maxcdn.com/socket.io-client/1.3.2/socket.io.min.js"></script>
+        <script type="text/javascript" src="https://oss.maxcdn.com/jquery/2.1.4/jquery.min.js"></script>
+        <script type="text/javascript" src="https://oss.maxcdn.com/semantic-ui/2.1.7/semantic.min.js"></script>
+    </head>
+    
+    <body>
+        <div id="faucetClaimCaptcha"></div>
+        
+        <div id="game_container">
+            <div id="chat">
+                <div id="chatMonitor"></div>
+                
+                <button id="connectButton" onclick="window.location.href='https://www.moneypot.com/oauth/authorize?app_id=584&response_type=token&state=Meh&redirect_uri=http://dexon95.github.io/bitsweeper'">Connect</button>
+                
+                <span id="connectedUsersText"><span id="connectedUsersAmount">0</span> users on BitSweeper</span>
+                <span id="connectionText">
+                    Logged in as <span id="username"></span>. <a href="/">Log out</a><br>Balance: <span id="balance"></span> Bits<br>
+                    <br>
+                    <br>
+                    <button id="faucetButton">FAUCET</button>
+                </span>
+            </div>
+            <div id="game_left">
+                <ul id="board">
+                    <div class="ui right labeled input" id="betInputArea">
+                        <div class="ui label">Bet</div>
+                        <input class="bet" id="bet" type="number" pattern="[0-9]*" value="2" onkeyup="setBet($(this).val());" onchange="setBet($(this).val());">
+                        <div class="ui basic label">Bits</div>
+                    </div>
+                    <div class="ui icon buttons" id="bombsButtons">
+                        <button class="ui button" onclick="setBombs(1);"><i class="bomb icon"></i> 1</button>
+                        <button class="ui button active" onclick="setBombs(3);"><i class="bomb icon"></i> 3</button>
+                        <button class="ui button" onclick="setBombs(5);"><i class="bomb icon"></i> 5</button>
+                        <button class="ui button" onclick="setBombs(24);"><i class="bomb icon"></i> 24</button>
+                    </div>
+                    <button id="startNewGameButton">Start new game</button>
+                </ul>
+            </div>
+            <div id="game_log">
+                <div id="game_actions">
+                    <div class="ui statistics">
+                        <div class="statistic">
+                            <div class="label">Next</div>
+                            <div class="value" id="next_value">0</div>
+                        </div>
+                        <div class="statistic">
+                            <div class="label">Stake</div>
+                            <div class="value" id="stake_value">0</div>
+                        </div>
+                        <div class="statistic">
+                            <button id="cashoutButton">Cashout</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="logs">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="lib/js/script.js"></script>
+        <script src='https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit' async defer></script>
+    </body>
+</html>
