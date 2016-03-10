@@ -178,6 +178,10 @@ html, body{
     color: rgba(255, 255, 255, .5);
 }
 
+#depositButton:active, #withdrawButton:active{
+    margin-top: 0;
+}
+
 #chat #connectButton:active, #chat #connectButton:disabled {
     bottom: 3px;
     box-shadow: 0 1px 1px #000, inset 0 2px 4px #060;
