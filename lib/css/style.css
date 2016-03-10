@@ -33,7 +33,41 @@ html, body{
     -webkit-tap-highlight-color: transparent;
 }
 
-#startNewGameButton:hover, #connectButton:hover, #cashoutButton:hover, #playAgainButton:hover{
+#chatButton{
+    position: absolute;
+    right: 5px;
+    bottom: 8px;
+    width: 70px;
+    background: #90c739;
+    border: 1px solid #52b000;
+    color: #fff;
+    text-shadow: 0 -1px 0 #52b000;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline: none;
+    -moz-box-shadow: 0 2px 0 #225a00,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
+    -webkit-box-shadow: 0 2px 0 #225a00,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
+    -o-box-shadow: 0 2px 0 #225a00,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
+    box-shadow: 0 2px 0 #225a00,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
+    -webkit-tap-highlight-color: transparent;
+}
+
+#faucetButton{
+    background: #90c739;
+    border: 1px solid #52b000;
+    color: #fff;
+    text-shadow: 0 -1px 0 #52b000;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline: none;
+    -moz-box-shadow: 0 2px 0 #225a00,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
+    -webkit-box-shadow: 0 2px 0 #225a00,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
+    -o-box-shadow: 0 2px 0 #225a00,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
+    box-shadow: 0 2px 0 #225a00,0 3px 1px #000,inset 0 1px 0 rgba(255,255,255,.2);
+    -webkit-tap-highlight-color: transparent;
+}
+
+#startNewGameButton:hover, #connectButton:hover, #cashoutButton:hover, #playAgainButton:hover, #faucetButton:hover, #chatButton:hover{
     outline: none;
     cursor: pointer;
 }
@@ -73,32 +107,30 @@ html, body{
     width: 267px;
     max-width: 267px;
     height: 23px;
-    
     outline: none;
     border: none;
-    background: #d0d08f;
-    
+    background: #000;
     padding: 0 5px;
-    
     position: absolute;
     left: 5px;
     bottom: 6px;
+    color: white;
 }
 
 #chat input[type="text"]::-webkit-input-placeholder {
-   color: rgba(0,0,0,0.5);
+   color: rgba(255,255,255,0.5);
 }
 
 #chat input[type="text"]:-moz-placeholder { /* Firefox 18- */
-   color: rgba(0,0,0,0.5); 
+   color: rgba(255,255,255,0.5);
 }
 
 #chat input[type="text"]::-moz-placeholder {  /* Firefox 19+ */
-   color: rgba(0,0,0,0.5); 
+   color: rgba(255,255,255,0.5);
 }
 
 #chat input[type="text"]:-ms-input-placeholder {  
-   color: rgba(0,0,0,0.5); 
+   color: rgba(255,255,255,0.5);
 }
 
 #chat #connectButton{
@@ -111,11 +143,26 @@ html, body{
     bottom: 5px;
 }
 
+#chat #chatButton:active, #chat #chatButton:disabled {
+    bottom: 6px;
+    box-shadow: 0 1px 1px #000, inset 0 2px 4px #060;
+    border: 1px solid #070;
+    color: rgba(255, 255, 255, .5);
+}
+
+#chat #faucetButton:active, #chat #faucetButton:disabled{
+    margin-bottom: -2px;
+    margin-top: 2px;
+    box-shadow: 0 1px 1px #000, inset 0 2px 4px #060;
+    border: 1px solid #070;
+    color: rgba(255, 255, 255, .5);
+}
+
 #chat #connectButton:active, #chat #connectButton:disabled {
     bottom: 3px;
     box-shadow: 0 1px 1px #000, inset 0 2px 4px #060;
     border: 1px solid #070;
-    color: rgba(255, 255, 255, .5)
+    color: rgba(255, 255, 255, .5);
 }
 
 #chat #connectionText{
