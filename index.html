@@ -22,11 +22,13 @@
                 
                 <button id="connectButton" onclick="window.location.href='https://www.moneypot.com/oauth/authorize?app_id=584&response_type=token&state=Meh&redirect_uri=http://dexon95.github.io/bitsweeper'">Connect</button>
                 
-                <span id="connectedUsersText"><span id="connectedUsersAmount">0</span> users on BitSweeper</span>
+                <span id="connectedUsersText">
+                    <span id="connectedUsersAmount">0</span> users on BitSweeper<br><br>
+                    <button id="depositButton">Deposit</button>
+                    <button id="withdrawButton">Withdraw</button>
+                </span>
                 <span id="connectionText">
                     Logged in as <span id="username"></span>. <a href="/bitsweeper">Log out</a><br>Balance: <span id="balance"></span> Bits<br>
-                    <br>
-                    <br>
                     <button id="faucetButton">FAUCET</button>
                 </span>
             </div>
