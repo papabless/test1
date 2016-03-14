@@ -378,7 +378,7 @@ html, body{
 }
 
 #board #startNewGameButton:active, #board #startNewGameButton:disabled {
-    top: 128px;
+    top: 162px;
     box-shadow: 0 1px 1px #000, inset 0 2px 4px #060;
     border: 1px solid #070;
     color: rgba(255, 255, 255, .5);
