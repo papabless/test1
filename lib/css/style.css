@@ -373,7 +373,7 @@ html, body{
 #board #startNewGameButton{
     width: 150px;
     position: absolute;
-    top: 126px;
+    top: 160px;
     left: 85px;
 }
 
@@ -537,5 +537,9 @@ html, body{
 }
 
 #depositButton, #withdrawButton{
+    display: none;
+}
+
+#customBombsInputArea{
     display: none;
 }

@@ -58,6 +58,12 @@
                         <button class="ui button active" onclick="setBombs(3);"><i class="bomb icon"></i> 3</button>
                         <button class="ui button" onclick="setBombs(5);"><i class="bomb icon"></i> 5</button>
                         <button class="ui button" onclick="setBombs(24);"><i class="bomb icon"></i> 24</button>
+                        <button class="ui button customBombsButton">Custom</button>
+                    </div>
+                    <div class="ui right labeled input" id="customBombsInputArea" style="width: 100%; margin-top: 10px;">
+                        <div class="ui label"></div>
+                        <input class="customBombs" id="customBombs" type="number" pattern="[0-9]*" value="10" onkeyup="setBombs($(this).val());" onchange="setBombs($(this).val());" style="text-align: right;">
+                        <div class="ui basic label">Bombs</div>
                     </div>
                     <button id="startNewGameButton">Start new game</button>
                 </ul>
