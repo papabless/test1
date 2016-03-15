@@ -25,6 +25,13 @@ html, body{
     color: white;
 }
 
+#logo{
+    margin: 15px auto;
+    width: 250px;
+    height: 40px;
+    background: url(img/logo.png) no-repeat;
+}
+
 #startNewGameButton, #connectButton, #cashoutButton, #playAgainButton{
     width: 150px;
     height: 2em;
