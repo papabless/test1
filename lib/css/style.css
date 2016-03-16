@@ -285,11 +285,11 @@ html, body{
 }
 
 #highRoller_log{
-    width: 320px;
+    width: 310px;
     height: 320px;
     position: absolute;
-    top: 500px;
-    left: calc(50% - 180px);
+    top: 135px;
+    left: calc(50% - 500px);
     display: none;
 }
 
