@@ -291,6 +291,7 @@ html, body{
     top: 135px;
     left: calc(50% - 500px);
     display: none;
+    transition: all 1s;
 }
 
 #highRoller_log .title{
