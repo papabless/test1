@@ -314,6 +314,7 @@ html, body{
 }
 
 #highRoller_logs .info {
+    position: inline-block;
     opacity: 0.5;
     transition: opacity 1s;
 }
