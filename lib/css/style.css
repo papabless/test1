@@ -313,6 +313,10 @@ html, body{
     display: inline-block;
 }
 
+#highRoller_logs .log_item:hover{
+    background: rgba(0,0,0,0.2);
+}
+
 #highRoller_logs .info {
     position: relative;
     display: inline-block;
