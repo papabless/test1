@@ -314,7 +314,7 @@ html, body{
 }
 
 #highRoller_logs .info {
-    position: inline-block;
+    position: relative;
 }
 
 #game_log {
