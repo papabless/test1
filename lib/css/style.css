@@ -304,7 +304,7 @@ html, body{
     white-space: nowrap;
 }
 
-#highRoller_logs .log_item{
+#highRoller_logs .hr_log_item{
     height: 20px;
     width: 310px;
     margin-top: 3px;
@@ -313,11 +313,11 @@ html, body{
     display: inline-block;
 }
 
-#highRoller_logs .log_item:hover{
+#highRoller_logs .hr_log_item:hover{
     background: rgba(0,0,0,0.2);
 }
 
-#highRoller_logs .log_item a{
+#highRoller_logs .hr_log_item a{
     color: white;
 }
 
