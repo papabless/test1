@@ -313,6 +313,11 @@ html, body{
     display: inline-block;
 }
 
+#highRoller_logs .info {
+    opacity: 0.5;
+    transition: opacity 1s;
+}
+
 #game_log {
     width: 310px;
     height: 320px;
