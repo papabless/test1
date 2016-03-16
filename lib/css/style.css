@@ -304,6 +304,15 @@ html, body{
     display: none;
 }
 
+#highRoller_logs .log_item{
+    height: 50px;
+    width: 310px;
+    margin-top: 3px;
+    padding-left: 5px;
+    opacity: 0;
+    line-height: 16px;
+}
+
 #game_log {
     width: 310px;
     height: 320px;
