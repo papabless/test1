@@ -290,6 +290,7 @@ html, body{
     height: 320px;
     position: relative;
     top: 370px;
+    display: none;
 }
 
 #highRoller_log .title{
@@ -301,7 +302,6 @@ html, body{
     color: white;
     font-size: 20px;
     white-space: nowrap;
-    display: none;
 }
 
 #highRoller_logs .log_item{
