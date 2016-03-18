@@ -259,7 +259,7 @@ html, body{
     background: rgba(0,61,255,0.2);
 }
 #chatMonitor .chatMessage span.notify{
-    color: lime;
+    color: rgb(200,255,200);
 }
 
 #faucetClaimCaptcha{
