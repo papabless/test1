@@ -255,6 +255,13 @@ html, body{
     background: rgba(252,252,255,0.2);
 }
 
+#chatMonitor .chatMessage.notify{
+    background: rgba(0,61,255,0.2);
+}
+#chatMonitor .chatMessage span.notify{
+    color: lime;
+}
+
 #faucetClaimCaptcha{
     position: absolute;
     width: 304px;
