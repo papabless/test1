@@ -57,10 +57,10 @@
                 </div>
                 <ul id="board">
                     <div class="ui icon buttons" id="betControllButtons">
-                        <button class="ui button" onclick="$('#bet').val(Math.floor($('#bet').val()*2));">x2</button>
-                        <button class="ui button" onclick="$('#bet').val(Math.round($('#bet').val()/2));">½</button>
-                        <button class="ui button" onclick="$('#bet').val((user_balance>=1?1:0));">MIN</button>
-                        <button class="ui button" onclick="$('#bet').val(Math.floor(user_balance));">MAX</button>
+                        <button class="ui button" onclick="$('#bet').val(Math.floor($('#bet').val()*2)); setBet($('#bet').val());">x2</button>
+                        <button class="ui button" onclick="$('#bet').val(Math.round($('#bet').val()/2)); setBet($('#bet').val());">½</button>
+                        <button class="ui button" onclick="$('#bet').val((user_balance>=1?1:0)); setBet($('#bet').val());">MIN</button>
+                        <button class="ui button" onclick="$('#bet').val(Math.floor(user_balance)); setBet($('#bet').val());">MAX</button>
                     </div>
                     <div class="ui right labeled input" id="betInputArea">
                         <div class="ui label">Bet</div>
