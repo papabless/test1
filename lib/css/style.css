@@ -25,6 +25,10 @@ html, body{
     color: white;
 }
 
+.settingsButon{
+    cursor: pointer;
+}
+
 #logo{
     margin: 15px auto;
     width: 250px;
