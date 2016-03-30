@@ -17,6 +17,7 @@
         <script type="text/javascript" src="https://oss.maxcdn.com/socket.io-client/1.3.2/socket.io.min.js"></script>
         <script type="text/javascript" src="https://oss.maxcdn.com/jquery/2.1.4/jquery.min.js"></script>
         <script type="text/javascript" src="https://oss.maxcdn.com/semantic-ui/2.1.7/semantic.min.js"></script>
+        <script type="text/javascript" src="lib/js/jquery.cookie.js"></script>
     </head>
     
     <body>
@@ -25,9 +26,10 @@
         <div id="logo"></div>
 
         <div id="game_container">
-            <div style="position: absolute; top: 320px; left: 320px;">
+            <div style="width:320px; position: absolute; top: 320px; left: 320px;">
                 <a href="https://www.moneypot.com/apps/584-bitsweeper" target="_blank" rel="external nofollow">Moneypot</a> | 
                 <a href="https://bitcointalk.org/index.php?topic=1395232" target="_blank" rel="external nofollow">BitcoinTalk</a>
+                <a class="settingsButon" style="float:right;" onclick="showSettings();"><i class="settings icon"></i></a>
             </div>
             <div id="chat">
                 <div id="chatMonitor"></div>
@@ -69,7 +71,7 @@
                     </div>
                     <div class="ui icon buttons" id="bombsButtons">
                         <button class="ui button" onclick="setBombs(1);"><i class="bomb icon"></i> 1</button>
-                        <button class="ui button active" onclick="setBombs(3);"><i class="bomb icon"></i> 3</button>
+                        <button class="ui button" onclick="setBombs(3);"><i class="bomb icon"></i> 3</button>
                         <button class="ui button" onclick="setBombs(5);"><i class="bomb icon"></i> 5</button>
                         <button class="ui button" onclick="setBombs(24);"><i class="bomb icon"></i> 24</button>
                         <button class="ui button customBombsButton">Custom</button>
