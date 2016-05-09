@@ -125,8 +125,8 @@ a{
 
 #chat{
     background: url(img/chat_bg.png) no-repeat;
-    width: 550px;
-    height: 400px;
+    width: 350px;
+    height: 250px;
     
     position: relative;
     float: right;
@@ -144,8 +144,8 @@ a{
 }
 
 #chat input[type="text"]{
-    width: 267px;
-    max-width: 267px;
+    width: 400px;
+    max-width: 400px;
     height: 23px;
     outline: none;
     border: none;
