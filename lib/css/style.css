@@ -125,8 +125,8 @@ a{
 
 #chat{
     background: url(img/chat_bg.png) no-repeat;
-    width: 350px;
-    height: 250px;
+    width: 550px;
+    height: 400px;
     
     position: relative;
     float: right;
