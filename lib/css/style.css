@@ -678,6 +678,10 @@ a{
     color: #fff;
 }
 
+#game_allbets_log tbody tr td a{
+    color: white;
+}
+
 #game_allbets_log tbody tr td.win{
     border-left: 4px solid #8D4;
 }
