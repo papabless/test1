@@ -693,3 +693,12 @@ a{
 #game_allbets_log tbody tr td.lose{
     border-left: 4px solid #E74C3C;
 }
+
+#macroInfo{
+    color: rgba(255,255,255,0.3);
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 10px;
+    line-height: 12px;
+}
