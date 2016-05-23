@@ -21,9 +21,20 @@
     
     <body>
         
-        <!-- Forked from https://github.com/Dexon95/bitsweeper -->
         
         <div id="faucetClaimCaptcha"></div>
+        <div class="ui basic modal" id="depositForm">
+            <i class="close icon"></i>
+            <div class="header">
+                Deposit Form
+            </div>
+            <div class="image content">
+                <div class="description">
+                    <p>You can deposit to this address: <span id="depositBtcAddy" style="color:#2ECC40;font-weight:bold;font-size:18px;">null</span><br>Your balance will be automatically updated once your deposit is confirmed.</p>
+                    <p><div class="ui green basic inverted button" id="moneypotDepositButton">Deposit from moneypot</div></p>
+                </div>
+            </div>
+        </div>
         
         <div id="logo"></div>
 
@@ -85,6 +96,7 @@
                         <div class="ui basic label">Bombs</div>
                     </div>
                     <button id="startNewGameButton">Start new game</button>
+                    <div id="macroInfo">Or<br>Press <b>Space Bar</b> key to start/end games.</div>
                 </ul>
             </div>
             <div id="game_log">
