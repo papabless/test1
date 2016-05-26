@@ -47,7 +47,7 @@ a{
 #startNewGameButton, #connectButton, #cashoutButton, #playAgainButton{
     width: 150px;
     height: 2em;
-    background: #011C25;
+    background: #306B7E;
     border: 1px solid #306B7E;
     color: #fff;
     text-shadow: 0 -1px 0 #306B7E;
@@ -67,7 +67,7 @@ a{
     right: 5px;
     bottom: 8px;
     width: 70px;
-    background: #011C25;
+    background: #306B7E;
     border: 1px solid #306B7E;
     color: #fff;
     text-shadow: 0 -1px 0 #306B7E;
@@ -82,7 +82,7 @@ a{
 }
 
 #faucetButton, #depositButton, #withdrawButton{
-    background: #011C25;
+    background: #306B7E;
     border: 1px solid #306B7E;
     color: #fff;
     text-shadow: 0 -1px 0 #306B7E;
