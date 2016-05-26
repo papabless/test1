@@ -48,9 +48,9 @@ a{
     width: 150px;
     height: 2em;
     background: #011C25;
-    border: 1px solid #52b000;
+    border: 1px solid #306B7E;
     color: #fff;
-    text-shadow: 0 -1px 0 #52b000;
+    text-shadow: 0 -1px 0 #306B7E;
     text-transform: uppercase;
     font-weight: bold;
     margin: 20px 20px 20px 0;
@@ -68,9 +68,9 @@ a{
     bottom: 8px;
     width: 70px;
     background: #011C25;
-    border: 1px solid #52b000;
+    border: 1px solid #306B7E;
     color: #fff;
-    text-shadow: 0 -1px 0 #52b000;
+    text-shadow: 0 -1px 0 #306B7E;
     text-transform: uppercase;
     font-weight: bold;
     outline: none;
@@ -83,9 +83,9 @@ a{
 
 #faucetButton, #depositButton, #withdrawButton{
     background: #011C25;
-    border: 1px solid #52b000;
+    border: 1px solid #306B7E;
     color: #fff;
-    text-shadow: 0 -1px 0 #52b000;
+    text-shadow: 0 -1px 0 #306B7E;
     text-transform: uppercase;
     font-weight: bold;
     outline: none;
