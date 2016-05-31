@@ -308,7 +308,7 @@ a{
     height: 320px;
     position: absolute;
     top: 120px;
-    left: calc(35% - 400px);
+    left: calc(33% - 300px);
     display: none;
     transition: all 1s;
 }
@@ -352,7 +352,7 @@ a{
     height: 320px;
     position: absolute;
     top: 10px;
-    left: calc(10% - 265px);
+    left: calc(15% - 250px);
     float: left;
     display: none;
 }
