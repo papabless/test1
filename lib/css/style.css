@@ -132,8 +132,11 @@ a{
     width: 450px;
     height: 250px;
     
-    position: relative;
+    position: fixed;
     float: right;
+    bottom: 0;
+    right: 0;
+    width: 300px;
     z-index: 100;
 }
 
