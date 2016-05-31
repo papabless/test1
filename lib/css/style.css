@@ -306,11 +306,12 @@ a{
 #highRoller_log{
     width: 310px;
     height: 320px;
-    position: fixed;
-    top: 1px;
+    position: absolute;
+    top: 5px;
     left: calc(30% - 246px);
     display: none;
     transition: all 1s;
+    float: left;
 }
 
 #highRoller_log .title{
