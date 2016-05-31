@@ -133,8 +133,6 @@ a{
     height: 250px;
     
     position: relative;
-    left: 100px;
-    top: 30px;
     float: right;
     z-index: 100;
 }
