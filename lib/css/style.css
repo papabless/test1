@@ -343,7 +343,7 @@ a{
 }
 
 #highRoller_logs .info {
-    position: relative;
+    position: fixed;
     display: inline-block;
     float: right;
 }
