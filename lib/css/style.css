@@ -307,8 +307,8 @@ a{
     width: 310px;
     height: 320px;
     position: absolute;
-    top: 5px;
-    left: calc(30% - 246px);
+    top: 150px;
+    left: calc(31% - 246px);
     display: none;
     transition: all 1s;
     float: left;
