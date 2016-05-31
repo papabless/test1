@@ -308,7 +308,7 @@ a{
     height: 320px;
     position: absolute;
     top: 120px;
-    left: calc(33% - 300px);
+    left: calc(22% - 100px);
     display: none;
     transition: all 1s;
 }
