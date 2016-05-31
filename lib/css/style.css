@@ -129,7 +129,7 @@ a{
 
 #chat{
     background: url(img/chat_bg.png) no-repeat;
-    width: 350px;
+    width: 450px;
     height: 250px;
     
     position: relative;
@@ -138,7 +138,7 @@ a{
 }
 
 #chatMonitor{
-    width: 342px;
+    width: 442px;
     height: 209px;
     
     overflow-x: hidden;
@@ -148,8 +148,8 @@ a{
 }
 
 #chat input[type="text"]{
-    width: 267px;
-    max-width: 267px;
+    width: 367px;
+    max-width: 367px;
     height: 23px;
     outline: none;
     border: none;
