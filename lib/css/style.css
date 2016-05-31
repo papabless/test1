@@ -306,9 +306,9 @@ a{
 #highRoller_log{
     width: 310px;
     height: 320px;
-    position: relative;
-    top: 1px;
-    left: 310px;
+    position: absolute;
+    top: 120px;
+    left: calc(40% - 420px);
     display: none;
     transition: all 1s;
 }
