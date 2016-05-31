@@ -290,13 +290,13 @@ a{
 
 /************************************************/
 #game_container{
-    width: 1100px;
+    width: 1000px;
     margin: 80px auto;
     position: relative;
 }
 
 #game_left {
-    width: 420px;
+    width: 320px;
     height: 320px;
     position: relative;
     float: right;
@@ -348,7 +348,7 @@ a{
 }
 
 #game_log {
-    width: 410px;
+    width: 310px;
     height: 320px;
     position: relative;
     float: left;
