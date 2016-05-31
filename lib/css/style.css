@@ -350,7 +350,9 @@ a{
 #game_log {
     width: 310px;
     height: 320px;
-    position: relative;
+    position: absolute;
+    top: 10px;
+    left: calc(10% - 265px);
     float: left;
     display: none;
 }
