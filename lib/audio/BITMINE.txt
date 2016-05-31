@@ -1,0 +1,113 @@
+<font color = red>
+started at 12:30 am
+go https://github.com/Dexon95/bitsweeper and press fork
+aight, so when you'll have your domain name, you'll go to https://github.com/turtledaddykim/bitsweeper/blob/gh-pages/CNAME
+make new app here https://www.moneypot.com/apps/new
+you'll have to edit on your app and add your domain as well in the redirect list on a new line
+and in 'index.html' and 'lib/js/script.js' replace "turtledaddykim.github.io/bitsweeper" to your domain name
+
+https://bitcointalk.org/index.php?topic=1395232
+https://www.google.com/recaptcha/admin#list
+https://github.com/turtledaddykim/bitsweeper/blob/gh-pages/CNAME CHANGE DOMAIN HERE
+https://github.com/turtledaddykim/bitsweeper/settings SETTINGS
+https://github.com/turtledaddykim/bitsweeper MAIN PLACE
+https://www.moneypot.com/api-docs#dialogs-withdraw-form API DOCS
+https://github.com/turtledaddykim/bitsweeper/commit/ea68eae73d264d69eff5a500f121bd55025b0e6d HOW TO ADD TIP COMMAND 
+https://github.com/turtledaddykim/BitMine/blob/gh-pages/lib/js/script.js#L180 CHANGE HIGH ROLLER
+
+Bitbomb
+gomines
+Bitmines
+Divinemines 
+
+I need some testers for a site! You can play for free (2 bits every 5 minutes and you can claim it forever) http://bitmine.xyz/
+Visit bitmine.xyz to play the bitcoin minesweeper casino for free! [FREE faucet every 5 minutes] [low 0.5% house edge!]
+Play for FREE on bitmine.xyz! FREE SCRIPT IS UPDATED WITH NEW FEATURES
+Play for FREE on bitmine.xyz! the creator of satoshiminesbot.xyz made a free bot for the site!
+
+Maybe play sound when we found the bomb
+also make the chat a little big
+hotkey
+live betting feed below
+dashboard/news feed for me to display stuff
+keep faucet timer after refreshing page
+validity checker
+mobile support
+add sound when faucet is ready
+
+browser logo, background
+@turtle can you make an adjustment to the chat?
+ because when I'm reading something from like 10 min ago and some posts a new message it goes down.
+
+14:18 Jamo313: 1 bomb bet 3 + 1 on win, half on lose, get 10 squares
+Do 5 bombs, hit 4 tiles, cashout=profit.
+Bet 4 bits on three bombs, cash out at two
+
+04:12 tphecca: @turtledaddykim, suggestion: display a QR code for the deposit address on your cool custom deposit popup thing
+
+it could be nice if there is option to add msg when mute
+so they see reason
+
+fishy
+popo00 
+Steeviee 
+Aftub 
+jtori84
+
+I use 100 rounsd, 9 bombs, 1 bit, max profit = 5, max loss = 5
+
+2
+6
+18
+54
+162
+486
+1458
+
+GG
+DogeHTDV
+kryometric
+I'm on tile 1, basebet 5, delay 300ms, custom loss row bet of: 25, 140, 750, 3900, 20500, 10750 SHORTA BOT
+
+https://www.diffchecker.com/nfmo1vgc
+
+LS62396
+Ponzi1006
+www.tinderbtc.com
+
+
+07:29 Server: @CoolDad sent @dankrussian 2 Bits.
+07:29 CoolDad: Cya guys :)
+07:29 turtledaddykim: cya
+07:29 CoolDad: :0
+07:29 CoolDad: !tip everyone
+07:29 CoolDad: :)
+07:29 turtledaddykim: :P
+07:30 hugogvale: doing a all in turtle
+07:30 hugogvale: wish me luck
+07:30 CoolDad: Who wants my access _ token
+07:30 turtledaddykim: :o good luck
+07:30 hugogvale: 380bits
+07:30 hugogvale: 2 bombs
+07:30 CoolDad: #access_token=6048d987-5ef0-4a5c-a31d-ee06441f7162
+07:30 hugogvale: an*
+07:30 CoolDad: Hack me :)
+07:30 hugogvale: yess
+07:30 hugogvale: got it
+07:30 hugogvale: 400 bits now
+
+
+swift
+dankrussian
+recognise
+probbert
+
+
+#highRoller_log{
+    width: 310px;
+    height: 320px;
+    position: absolute;
+    top: 120px;
+    left: calc(35% - 400px);
+    display: none;
+    transition: all 1s;
