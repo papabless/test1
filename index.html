@@ -56,6 +56,28 @@
             </div>
         </div>
         
+        <div class="ui basic modal" id="tippingForm">
+            <i class="close icon"></i>
+            <div class="header">
+                Tipping Form
+            </div>
+            <div class="image content">
+                <div class="description">
+                    <p>
+                        <div class="ui input">
+                            <input type="text" placeholder="Username" id="tipping_username_input">
+                        </div>
+                    </p>
+                    <p>
+                        <div class="ui input">
+                            <input type="number" step="1" placeholder="Amount" id="tipping_amount_input">
+                        </div>
+                    </p>
+                    <p><div class="ui green basic inverted button" id="sendTipButton">Send bits</div></p>
+                </div>
+            </div>
+        </div>
+        
         <div id="logo"></div>
 
         <div id="game_container">
@@ -78,6 +100,7 @@
                 <span id="connectionText">
                     Logged in as <span id="username"></span>. <a href="/">Log out</a><br>Balance: <span id="balance"></span> Bits <a id="balanceRefreshButton"><i class="refresh icon" id="balanceRefreshIcon"></i></a><br>
                     <button id="faucetButton">FAUCET</button>
+                    <button id="tipButton">TIP</button>
                 </span>
             </div>
             <div id="game_left">
