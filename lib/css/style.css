@@ -660,7 +660,10 @@ a{
 #game_allbets_log table{
     background-color: transparent;
 }
-
+		
+#game_allbets_log table tr{		
+    padding-top: 0px !important;
+}
 #game_allbets_log thead tr th{
     background: #444;
     color: #fff;
@@ -704,4 +707,8 @@ a{
     margin-top: 100px;
     font-size: 10px;
     line-height: 12px;
+}
+
+#safeLinkForm .image i, #safeLinkForm .description #unknownLink{
+    color: #F1C40F;
 }
