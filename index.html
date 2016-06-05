@@ -23,6 +23,26 @@
         
         
         <div id="faucetClaimCaptcha"></div>
+        
+        <div class="ui basic modal" id="safeLinkForm">
+            <i class="close icon"></i>
+            <div class="header">
+                WARNING!
+            </div>
+            <div class="image content">
+                <div class="image">
+                    <i class="warning sign icon"></i>
+                </div>
+                <div class="description">
+                    <p><span id="unknownLink"></span></p>
+                    <p>Be careful, you have clicked on a link that will redirect you to an external source.</p>
+                    <p>For your safety, we must advise you that <u>any unknown link may put your account or wallet security at risk</u>.</p>
+                    <p>Are you sure you want to continue?</p>
+                    <p><div class="ui red basic inverted button" id="safeLinkDoRedirectButton">I understand the risks, let me go</div><div class="ui green basic inverted button" id="safeLinkCancelRedirectButton">Cancel</div></p>
+                </div>
+            </div>
+        </div>
+        
         <div class="ui basic modal" id="depositForm">
             <i class="close icon"></i>
             <div class="header">
