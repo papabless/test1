@@ -17,6 +17,7 @@
         <script type="text/javascript" src="https://oss.maxcdn.com/jquery/2.1.4/jquery.min.js"></script>
         <script type="text/javascript" src="https://oss.maxcdn.com/semantic-ui/2.1.7/semantic.min.js"></script>
         <script type="text/javascript" src="lib/js/jquery.cookie.js"></script>
+        <script type="text/javascript" src="lib/js/strip-combining-marks.js"></script>
     </head>
     
     <body>
@@ -25,7 +26,6 @@
         <div id="faucetClaimCaptcha"></div>
         
         <div class="ui basic modal" id="safeLinkForm">
-            <i class="close icon"></i>
             <div class="header">
                 WARNING!
             </div>
@@ -34,11 +34,11 @@
                     <i class="warning sign icon"></i>
                 </div>
                 <div class="description">
-                    <p><span id="unknownLink"></span></p>
+<p><span id="unknownLink"></span></p>
                     <p>Be careful, you have clicked on a link that will redirect you to an external source.</p>
-                    <p>For your safety, we must advise you that <u>any unknown link may put your account or wallet security at risk</u>.</p>
+                    <p>For your safety, we must advise you that <span style="color: #F1C40F;">any unknown link may put your account or wallet security at risk</span>.</p>
                     <p>Are you sure you want to continue?</p>
-                    <p><div class="ui red basic inverted button" id="safeLinkDoRedirectButton">I understand the risks, let me go</div><div class="ui green basic inverted button" id="safeLinkCancelRedirectButton">Cancel</div></p>
+                    <p><a class="ui red basic inverted button safeLinkDoRedirectButton" target="_blank">I understand the risks, let me go</a><a class="ui green basic inverted button" id="safeLinkCancelRedirectButton">Cancel</a></p>
                 </div>
             </div>
         </div>
