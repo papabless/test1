@@ -712,3 +712,7 @@ a{
 #safeLinkForm .image i, #safeLinkForm .description #unknownLink{
     color: #F1C40F;
 }
+
+.safeLinkDoRedirectButton, #safeLinkCancelRedirectButton{
+    display: inline-block;
+}
