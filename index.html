@@ -162,20 +162,7 @@
                 <div id="logs"></div>
             </div>
 
-            <div id="game_allbets_log" class="right floated">
-                <table class="ui unstackable table">
-                    <thead>
-                        <tr>
-                            <th>ID</th>
-                            <th>User</th>
-                            <th>Wager</th>
-                            <th class="right aligned">Profit</th>
-                        </tr>
-                    </thead>
-                    <tbody id="game_allbets_logs">
-                    </tbody>
-                </table>
-            </div>
+
         </div>
 
         <div id="highRoller_log">
@@ -183,8 +170,31 @@
             <div id="highRoller_logs"></div>
         </div>
 
-        <script type="text/javascript" src="lib/js/script.js"></script>
+        <div id="game_allbets_log">
+            <table class="ui unstackable table">
+                <thead>
+                    <tr>
+                        <th colspan="3">All bets History<small> - <a id="viewMyBetsButton">My bets</a></small></th>
+                    </tr>
+                </thead>
+                <tbody id="game_allbets_logs">
+                </tbody>
+            </table>
+        </div>
+
+        <div id="game_mybets_log">
+            <table class="ui unstackable table">
+                <thead>
+                    <tr>
+                        <th colspan="3">My bets History<small> - <a id="viewAllBetsButton">All bets</a></small></th>
+                    </tr>
+                </thead>
+                <tbody id="game_mybets_logs">
+                </tbody>
+            </table>
+        </div>
+
+        <script type="text/javascript" src="lib/js/script.min.js"></script>
         <script src='https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit' async defer></script>
     </body>
 </html>
-
