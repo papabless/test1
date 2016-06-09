@@ -304,8 +304,8 @@ a{
 }
 
 #highRoller_log{
-    width: 410px;
-    height: 320px;
+    width: 310px;
+    height: 380px;
     position: absolute;
     top: 150px;
     left: calc(25% - 200px);
@@ -350,7 +350,7 @@ a{
 
 #game_log {
     width: 310px;
-    height: 320px;
+    height: 380px;
     position: absolute;
     top: 10px;
     left: calc(15% - 250px);
