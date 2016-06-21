@@ -1,4 +1,4 @@
-"<?php
+<?php
 $intValue = 0;
 $arrResult = json_decode(file_get_contents('http://preev.com/pulse/units:btc+usd/sources:bitfinex+bitstamp+btce'), true);
     foreach($arrResult['btc']['usd'] as $key => $index){
