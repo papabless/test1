@@ -10,7 +10,7 @@ html, body{
     min-width: 1000px;
     padding: 0;
     margin: 0;
-    background-image: url("http://images.123hdwallpapers.com/20150929/simple-background-pattern-dark-1366x768.jpg");
+    background-image: url(img/background.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
